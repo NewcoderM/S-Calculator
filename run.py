@@ -1,3 +1,18 @@
+def confirm_continue():
+    """
+    Ask the user whether they want to perform another calculation.
+    Returns:
+    bool: True if the user wants to continue, False otherwise.
+    """
+    while True:
+        next_calculation = input("\nContinue? (yes/no): ").strip().lower()
+        if next_calculation in ['yes', 'y']:
+            return True
+        elif next_calculation in ['no', 'n']:
+            return False
+        else:
+            print("Invalid input! Please enter 'yes' or 'no'.")
+
 
 def calculator():
     """
