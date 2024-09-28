@@ -76,3 +76,48 @@ I tried to enter somthing other than yes or no for the question continue? - does
 I tried to enter a number other than (1,2,3,4) for the question of chosing an operation - does not accept - pass test<br>
 
 ![](media/manual_test0.PNG)
+
+
+
+# Deployment
+
+The deployment was done on [render.com](render.com) and [github](githup.com)
+
+1. go to your account on render.com and press get started for free it will take you to the second page where you can see a New button in the navbar up , press it to have a dropdwn menue where you can choose web services.
+2. you can see here a box that shows github button press it and add your github project URL then down the box will be another button with the word connect. press it to connect your github to render. The connect button will not be activated till you choose a project from within the box.
+3. when you press connect you will be in the setting page. important is the following to be added:
+   <br>a. Build command: pip install -r requirements.txt && npm install
+   <br>b. Start command: node index.js
+   <br>c. environment variables: PORT; 8000
+   
+5. finished setting then press deploy web service butoon down in the page it will take you to the last page where you see your deployed link.
+
+   I used the CI template on github after I deleted procfile and runtime.text.
+
+The deployment was sucsessful based on the free service from [render.com](render.com) .<br>
+![](media/sucsessful_deloyment.PNG)
+
+However the free tier does not guarantee that the link will be active all the time, and sometimes throws 502 port error. A problem I have documented with my mentor and cohort facilitator. This is nothing to do with a bad code or wrong setting. <br>
+
+![](media/502_port.PNG)
+
+As far as I understood, this is because of the free tier but the solution is just to hit the link after a while and it will work Fine. I was forced to use the free service from [render.com](render.com) because I dont have a credit card. The thing that has already excluded the use of Heroku service as well.<br>
+
+Here is the explanation from Render Service to the port issue. I have already set my custom port to 8000 in the enviromental Var. I got this setting from a tutor in code institute during a tutoring session, where I got helped till the website was sucsessfully deployed.
+![](media/502_doc)
+
+![](media/render_free_tier)
+
+
+## Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+![The website is deployed sucsessfully. (502) port error is a render free tier related.](media/please_read_me)
+
+
