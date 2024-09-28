@@ -2,7 +2,7 @@
 This website allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. And it displays current date and time.
 
 View the live site here - <a href="https://simple-calculator-bj6j.onrender.com" target="_blank"> Simple Calculator </a>
-![](media/mockup.PNG)
+![](media/mockup0.PNG)
 
 # User Experience
 The website Simple Calculator offers a straightforward and user-friendly experience. Here are some key aspects of the user experience:
@@ -39,6 +39,26 @@ These user stories help in understanding the diverse needs of different users an
 Addition: Add two numbers.<br>
 Subtraction: Subtract one number from another.<br>
 Multiplication: Multiply two numbers.<br>
-Division: Divide one number by another, with error handling for division by zero.
+Division: Divide one number by another, with error handling for division by zero.<br>
 Displaying current Time and date.
+
+# Technologies used
+
+python<br>
+github<br>
+
+# Flowchart of logic:
+1. Start: The program begins.
+Welcome Message: Display a welcome message to the user.
+2. Perform Calculation:
+Get Operation Choice: Prompt the user to select an operation (Add, Subtract, Multiply, Divide).
+3. Get Numbers: Prompt the user to enter two numbers.
+4. Perform Operation: Based on the selected operation, perform the corresponding arithmetic operation.
+5. Display Result: Show the result of the operation.
+6. Continue?: Ask the user if they want to perform another calculation.
+A. If Yes, repeat the process from Perform Calculation.
+B. If No, display a thank you message and end the program.
+
+![](media/logic_chart.PNG)
+
 
