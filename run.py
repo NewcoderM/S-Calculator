@@ -1,3 +1,24 @@
+
+def add(x, y):
+    """
+    Return the sum of x and y.
+    Parameters:
+    x (float): The first number.
+    y (float): The second number.
+    Returns:
+    float: The sum of x and y.
+    """
+    return x + y
+def subtract(x, y):
+    """
+    Return the difference of x and y.
+    Parameters:
+    x (float): The first number.
+    y (float): The second number.
+    Returns:
+    float: The difference between x and y.
+    """
+    return x - y
 def confirm_continue():
     """
     Ask the user whether they want to perform another calculation.
