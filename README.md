@@ -62,3 +62,17 @@ B. If No, display a thank you message and end the program.
 ![](media/logic_chart.PNG)
 
 
+# Testing Python code:
+a test was run on [CI linter](https://pep8ci.herokuapp.com/#) and no errors were found. All clear.
+
+![](media/test_no_errors.PNG)
+
+
+# Manual Testing:
+I tried to enter nothing for a number   - doesnt accept - pass test<br>
+I tried to enter a letter or a word  - does not accept - pass test<br>
+I tried to divide by zero - doesnt accept - pass test<br>
+I tried to enter somthing other than yes or no for the question continue? - does not accept - pass test<br>
+I tried to enter a number other than (1,2,3,4) for the question of chosing an operation - does not accept - pass test<br>
+
+![](media/manual_test0.PNG)
