@@ -105,6 +105,31 @@ def confirm_continue():
             print("Invalid input! Please enter 'yes' or 'no'.")
 
 
+def perform_calculation():
+    """
+    Perform a calculation based on the user's choice of operation.
+    """
+    # Get user's choice of operation
+    choice = get_operation_choice()
+    # Get two numbers from the user
+    num1 = get_float_input("Enter first number: ")
+    num2 = get_float_input("Enter second number: ")
+    # Perform the selected operation and print the result
+    if choice == '1':
+        result = add(num1, num2)
+        operation = "+"
+    elif choice == '2':
+        result = subtract(num1, num2)
+        operation = "-"
+    elif choice == '3':
+        result = multiply(num1, num2)
+        operation = "*"
+    elif choice == '4':
+        result = divide(num1, num2)
+        operation = "/"
+    print(f"\nResult: {num1} {operation} {num2} = {result}")
+
+
 def calculator():
     """
     Main calculator function that allows users to perform arithmetic
