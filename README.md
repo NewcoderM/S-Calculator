@@ -1,7 +1,7 @@
 # Welcome to the Simple Calculator Website! 
 This website allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. And it displays current date and time.
 
-View the live site here - <a href="https://simple-calculator-bj6j.onrender.com" target="_blank"> Simple Calculator </a>
+View the live site here - <a href="https://s-calculator-6q4s.onrender.com" target="_blank"> Simple Calculator </a>
 ![](media/mockup0.PNG)
 
 # User Experience
@@ -94,8 +94,9 @@ The deployment was done on [render.com](render.com) and [github](githup.com)
 
    I used the CI template on github after I deleted procfile and runtime.text.
 
-The deployment was sucsessful based on the free service from [render.com](render.com) .<br>
-![](media/sucsessful_deloyment.PNG)
+The deployment was successful based on the free service from [render.com](render.com) .<br>
+
+![](media/successful_deployment.PNG)
 
 However the free tier does not guarantee that the link will be active all the time, and sometimes throws 502 port error. A problem I have documented with my mentor and cohort facilitator. This is nothing to do with a bad code or wrong setting. <br>
 
@@ -104,9 +105,10 @@ However the free tier does not guarantee that the link will be active all the ti
 As far as I understood, this is because of the free tier but the solution is just to hit the link after a while and it will work Fine. I was forced to use the free service from [render.com](render.com) because I dont have a credit card. The thing that has already excluded the use of Heroku service as well.<br>
 
 Here is the explanation from Render Service to the port issue. I have already set my custom port to 8000 in the enviromental Var. I got this setting from a tutor in code institute during a tutoring session, where I got helped till the website was sucsessfully deployed.
-![](media/502_doc)
 
-![](media/render_free_tier)
+![](media/502_doc.PNG)
+
+![](media/render_free_tier.PNG)
 
 
 ## Forking the GitHub Repository
@@ -118,7 +120,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 3. You should now have a copy of the original repository in your GitHub account.
 
 
-![The website is deployed sucsessfully. (502) port error is a render free tier related.](media/please_read_me)
+![The website is deployed sucsessfully. (502) port error is a render free tier related.](media/please_read_me.PNG)
 
 
 # Python Libraries:
