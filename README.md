@@ -121,3 +121,20 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 ![The website is deployed sucsessfully. (502) port error is a render free tier related.](media/please_read_me)
 
 
+# Python Libraries:
+
+[Datetime](https://docs.python.org/3/library/datetime.html#datetime.datetime.now) was used to show the time and date of starting the app as they appear with the welcome message at the beginning.
+
+
+## Credits: 
+
+. This project was inspired from code institute project [Love Math](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/) where the functions of a calculator were presented and explained but which in Javascript. I took it from there to create my python project.<br>
+. Mockup was generated from [techsini.com](https://techsini.com/multi-mockup/index.php) <br>
+. Flowchart of logic was created with[Flodia Diagrams](https://www.bezapps.com/) <br>
+.[CI Python lintor](https://pep8ci.herokuapp.com/#) was used to do the python code testing.
+
+## Aknowledgement:
+
+I am grateful to the support I got from my mentor, Spencer Barriball. His advices and tips were invaluable. To whom I am deeply grateful. I would like to thank the  tutors,cohort facilitator and evryone else who has answered me on Slack. Thank you.
+
+
