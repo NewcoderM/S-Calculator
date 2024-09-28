@@ -59,7 +59,7 @@ Get Operation Choice: Prompt the user to select an operation (Add, Subtract, Mul
 A. If Yes, repeat the process from Perform Calculation.
 B. If No, display a thank you message and end the program.
 
-![](media/logic_chart.PNG)
+![](media/logic_chart.jpg)
 
 
 # Testing Python code:
