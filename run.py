@@ -1,4 +1,3 @@
-
 def add(x, y):
     """
     Return the sum of x and y.
@@ -9,6 +8,8 @@ def add(x, y):
     float: The sum of x and y.
     """
     return x + y
+
+
 def subtract(x, y):
     """
     Return the difference of x and y.
@@ -19,6 +20,34 @@ def subtract(x, y):
     float: The difference between x and y.
     """
     return x - y
+
+
+def multiply(x, y):
+    """
+    Return the product of x and y.
+    Parameters:
+    x (float): The first number.
+    y (float): The second number.
+    Returns:
+    float: The product of x and y.
+    """
+    return x * y
+
+
+def divide(x, y):
+    """
+    Return the division of x by y. Handle division by zero.
+    Parameters:
+    x (float): The numerator.
+    y (float): The denominator.
+    Returns:
+    float or str: The result of division, or an error message if y is zero.
+    """
+    if y == 0:
+        return "Error! Division by zero is undefined."
+    return x / y
+
+
 def confirm_continue():
     """
     Ask the user whether they want to perform another calculation.
