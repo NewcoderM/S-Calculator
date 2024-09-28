@@ -146,6 +146,6 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ## Aknowledgement:
 
-I am grateful to the support I got from my mentor, Spencer Barriball. His advices and tips were invaluable. To whom I am deeply grateful. I would like to thank the  tutors,cohort facilitator and evryone else who has answered me on Slack. Thank you.
+I am grateful to the support I got from my mentor, Spencer Barriball. His advices and tips were invaluable, to whom I am deeply grateful. I would like to thank the  tutors, cohort facilitator and evryone else who has answered me on Slack. Thank you.
 
 
