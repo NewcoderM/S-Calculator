@@ -48,6 +48,21 @@ def divide(x, y):
     return x / y
 
 
+def get_float_input(prompt):
+    """
+    Get a float input from the user, ensuring valid numeric input.
+    Parameters:
+    prompt (str): The input prompt for the user.
+    Returns:
+    float: A valid float number entered by the user.
+    """
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input! Please enter a valid numeric value.")
+
+
 def confirm_continue():
     """
     Ask the user whether they want to perform another calculation.
@@ -78,5 +93,7 @@ def calculator():
         if not confirm_continue():
             print("\nThank you for using the calculator. Goodbye!")
             break
+
+
 if __name__ == "__main__":
     calculator()
