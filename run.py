@@ -63,6 +63,25 @@ def get_float_input(prompt):
             print("Invalid input! Please enter a valid numeric value.")
 
 
+def get_operation_choice():
+    """
+    Get a valid operation choice from the user.
+    Returns:
+    str: A valid operation choice from ['1', '2', '3', '4'].
+    """
+    print("\nSelect operation:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+    while True:
+        choice = input("Enter choice (1/2/3/4): ")
+        if choice in ['1', '2', '3', '4']:
+            return choice
+        else:
+            print("Invalid choice! Please select a valid operation (1/2/3/4).")
+
+
 def confirm_continue():
     """
     Ask the user whether they want to perform another calculation.
